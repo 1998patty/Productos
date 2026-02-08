@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS productos (
 );
 
 -- ============================================
--- Datos de ejemplo (5 productos)
+-- Datos quemados
 -- ============================================
 
 INSERT INTO productos (nombre, descripcion, precio, stock) VALUES

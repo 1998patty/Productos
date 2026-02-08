@@ -23,7 +23,6 @@
                 <th>Descripcion</th>
                 <th>Precio</th>
                 <th>Stock</th>
-                <th>Fecha de Creacion</th>
                 <th>Acciones</th>
             </tr>
         </thead>
@@ -35,7 +34,6 @@
                     <td><?php echo htmlspecialchars($p['descripcion']); ?></td>
                     <td>$<?php echo number_format($p['precio'], 2); ?></td>
                     <td><?php echo $p['stock']; ?></td>
-                    <td><?php echo $p['created_at']; ?></td>
                     <td>
                         <a href="index.php?controller=producto&action=edit&id=<?php echo $p['id']; ?>" class="btn btn-warning btn-sm">Editar</a>
                         <a href="index.php?controller=producto&action=delete&id=<?php echo $p['id']; ?>" class="btn btn-danger btn-sm">Eliminar</a>
